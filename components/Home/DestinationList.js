@@ -20,8 +20,9 @@ const DestinationList = () => {
             name: 'The Moon',
             description: 'Earth\'s Natural Satellite',
             image: '/img/FullMoon.jpg',
-            link: '/earth-moon'
-        }
+            link: '/moon'
+        },
+  
     ];
 
     return (

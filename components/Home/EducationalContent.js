@@ -24,7 +24,7 @@ const EducationalContent = () => {
     // content = educationalContent;
 
     return (
-        <section className="bg-opacity-100 backdrop-blur-md backdrop-filter bg-[url('/img/space-1.jpg')] bg-cover w-full   ">
+        <section className="bg-opacity-10 backdrop-blur-md backdrop-filter bg-slate-900 bg-cover w-full   ">
             <div className="bg-opacity-5 backdrop-blur-md backdrop-filter bg-white w-full bg-cover container mx-auto p-3 px-6 py-8">
 
                 <div className='flex'>

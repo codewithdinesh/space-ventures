@@ -1,6 +1,6 @@
 import React from 'react'
 
-const DestinationInfo = ({ destination }) => {
+const DestinationInfo = ({ place }) => {
     return (
 
         <div
@@ -15,7 +15,7 @@ const DestinationInfo = ({ destination }) => {
             <h3 className="text-xl font-semibold text-gray-800">
                 {destination.name}
             </h3>
-            <p className="text-gray-600">{destination.description}</p>
+
 
         </div>
     )
