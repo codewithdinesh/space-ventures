@@ -6,7 +6,7 @@ import Saturn from "./Saturn";
 const toRadians = (angle) => (angle * Math.PI) / 180;
 
 function Mercury(props) {
-  const texture = useTexture("/mercury_8k.jpg");
+  const texture = useTexture("/3d/mercury_8k.jpg");
   texture.generateMipmaps = true;
   texture.minFilter = LinearMipMapLinearFilter;
   return (
@@ -21,7 +21,7 @@ function Mercury(props) {
 }
 
 function Venus(props) {
-  const texture = useTexture("/venus_8k.jpg");
+  const texture = useTexture("/3d/venus_8k.jpg");
   texture.generateMipmaps = true;
   texture.minFilter = LinearMipMapLinearFilter;
   return (
@@ -36,7 +36,7 @@ function Venus(props) {
 }
 
 function Earth(props) {
-  const texture = useTexture("/earth_8k.jpg");
+  const texture = useTexture("/3d/earth_8k.jpg");
   texture.generateMipmaps = true;
   texture.minFilter = LinearMipMapLinearFilter;
   return (
@@ -51,7 +51,7 @@ function Earth(props) {
 }
 
 function Mars(props) {
-  const texture = useTexture("/mars_8k.jpg");
+  const texture = useTexture("/3d/mars_8k.jpg");
   texture.generateMipmaps = true;
   texture.minFilter = LinearMipMapLinearFilter;
   return (
@@ -66,7 +66,7 @@ function Mars(props) {
 }
 
 function Jupiter(props) {
-  const texture = useTexture("/jupiter_8k.jpg");
+  const texture = useTexture("/3d/jupiter_8k.jpg");
   texture.generateMipmaps = true;
   texture.minFilter = LinearMipMapLinearFilter;
   return (
@@ -81,7 +81,7 @@ function Jupiter(props) {
 }
 
 function Uranus(props) {
-  const texture = useTexture("/uranus_2k.jpg");
+  const texture = useTexture("/3d/uranus_2k.jpg");
   texture.generateMipmaps = true;
   texture.minFilter = LinearMipMapLinearFilter;
   return (
@@ -96,7 +96,7 @@ function Uranus(props) {
 }
 
 function Neptune(props) {
-  const texture = useTexture("/neptune_2k.jpg");
+  const texture = useTexture("/3d/neptune_2k.jpg");
   texture.generateMipmaps = true;
   texture.minFilter = LinearMipMapLinearFilter;
   return (

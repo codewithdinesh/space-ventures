@@ -3,7 +3,7 @@ import React from "react";
 import { BackSide } from "three";
 
 export default function Space() {
-  const texture = useTexture("/stars_8k.jpg");
+  const texture = useTexture("/3d/stars_8k.jpg");
 
   return (
     <mesh scale={2000} position={[0, 0, 0]}>

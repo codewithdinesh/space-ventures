@@ -11,11 +11,11 @@ import {
 import { useFrame } from "@react-three/fiber";
 
 function Saturn({ onClick, position, ...props }) {
-  const planetTexture = useTexture("/saturn_8k.jpg");
+  const planetTexture = useTexture("/3d/saturn_8k.jpg");
   planetTexture.generateMipmaps = true;
   planetTexture.minFilter = LinearMipMapLinearFilter;
 
-  const ringTexture = useTexture("/saturn_rings.png");
+  const ringTexture = useTexture("/3d/saturn_rings.png");
   ringTexture.generateMipmaps = true;
   ringTexture.minFilter = LinearMipMapLinearFilter;
 
