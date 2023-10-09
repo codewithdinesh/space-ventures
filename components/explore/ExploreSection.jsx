@@ -29,7 +29,7 @@ const ExploreSection = () => {
 
             {selectedPlanet ? (
                 <Link
-                    href={`/destination/${selectedPlanet}`}
+                    href={`/destinations/${selectedPlanet}`}
                     className="absolute bottom-6 bg-transparent border border-white px-4 py-2 uppercase cursor-pointer"
                 >
                     Know more about {selectedPlanet}
