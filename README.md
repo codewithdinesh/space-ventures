@@ -1,40 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# SpaceVentures
 
-First, run the development server:
+Welcome to **SpaceVentures**, a virtual imaginary planet tourism platform that allows users to explore and experience the wonders of the universe from the comfort of their homes. Built using Next.js, Tailwind CSS, and Three.js, SpaceVentures offers an immersive and interactive experience for space enthusiasts.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Live Link
+https://dyson-sphere.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- **Interactive 3D Experience**: Explore various imaginary planets with stunning graphics and animations powered by Three.js.
+- **Responsive Design**: User-friendly interface that adapts to any device using Tailwind CSS.
+- **Dynamic Content**: Seamlessly navigate through different sections with Next.js for optimal performance.
+- **Educational Insights**: Learn interesting facts about each planet and its unique characteristics.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Technologies Used
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- **Next.js**: Framework for server-rendered React applications.
+- **Tailwind CSS**: Utility-first CSS framework for designing responsive layouts.
+- **Three.js**: JavaScript library for creating 3D graphics in the browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Screenshot
+![image](https://github.com/user-attachments/assets/d2ef78b2-09dd-424f-8a2c-52289ab041a3)
 
-## Learn More
+![image](https://github.com/user-attachments/assets/c21f6083-69c0-4dc3-ad61-ee8b5a316b98)
 
-To learn more about Next.js, take a look at the following resources:
+![image](https://github.com/user-attachments/assets/4d1a761b-c0da-40ce-bffe-f15d6c129260)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![image](https://github.com/user-attachments/assets/5d63bd41-78f0-4b7f-bf16-e897d2f4cfaa)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To get started with SpaceVentures, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/codewithdinesh/space-ventures.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd spaceventures
+   ```
+
+3. Install the required dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and go to `http://localhost:3000` to view the project.
+
+## Usage
+
+- Navigate through the platform using the menu to explore different imaginary planets.
+- Click on different areas to learn more about the unique features and landscapes of each planet.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to SpaceVentures, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Commit your changes and push to your branch.
+4. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
